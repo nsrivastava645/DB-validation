@@ -1,0 +1,48 @@
+{
+  "details": {
+    "summary": "Drop the db before test",
+    "description": "",
+    "externalId": "",
+    "condition": "",
+    "loopSource": "",
+    "waitForSeconds": null,
+    "runnable": true
+  },
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "property": null,
+        "operator": "equalToNumber",
+        "expectedValue": "200"
+      }
+    ],
+    "expectedBody": {
+      "content": {},
+      "type": "json"
+    },
+    "expectedSchema": {
+      "content": {},
+      "type": "json"
+    }
+  },
+  "request": {
+    "url": "{{baseURL}}/languages",
+    "method": "GET",
+    "headers": {},
+    "queryParams": [],
+    "body": {
+      "content": {},
+      "type": "json",
+      "formParams": []
+    }
+  },
+  "variables": [],
+  "iterationResultVariable": "",
+  "resultVariable": "",
+  "extensions": {
+    "vrest-command-executor-plugin": {
+      "executionCommand": "mongorestore --uri mongodb+srv://dbUser:dbPassword@cluster0.fhz1z.mongodb.net --drop {{$projectDir}}/dump/farmingAppKhetiDB"
+    }
+  }
+}

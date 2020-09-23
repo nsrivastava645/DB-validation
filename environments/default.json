@@ -1,0 +1,6 @@
+{
+  "baseURL": "http://localhost:3000/api/v1",
+  "projectDir": "A:\\Optimizory\\BasicFun",
+  "mySqlConn": "{{createSqlConnection()}}",
+  "mongoDBConn": "{{mongoDBconnect()}}"
+}

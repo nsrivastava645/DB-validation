@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Get Request ",
+    "description": "Collection of all get requests for the api",
+    "testCaseIds": [
+      "get_existing_languages_in_the_db_884995240",
+      "database_validation_786575919"
+    ]
+  },
+  {
+    "name": "Post Requests",
+    "description": null,
+    "testCaseIds": [
+      "template_for_languages_api_750936433",
+      "template_for_languages_api_348960463"
+    ]
+  },
+  {
+    "name": "Drop the db",
+    "description": null,
+    "testCaseIds": [
+      "drop_the_db_before_test_593798211"
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "details": {
+    "summary": "Template for languages API",
+    "description": "",
+    "externalId": "",
+    "condition": "",
+    "loopSource": "",
+    "waitForSeconds": null,
+    "runnable": true
+  },
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "property": null,
+        "operator": "equalToNumber",
+        "expectedValue": "201"
+      }
+    ],
+    "expectedBody": {
+      "content": {},
+      "type": "json"
+    },
+    "expectedSchema": {
+      "content": {},
+      "type": "json"
+    }
+  },
+  "request": {
+    "url": "{{baseURL}}/languages/add",
+    "method": "POST",
+    "headers": {},
+    "queryParams": [],
+    "body": {
+      "content": "{\"name\":\"{{$data.name}}\"}",
+      "type": "form-urlencoded",
+      "formParams": [
+        {
+          "name": "name",
+          "value": "{{$data.name}}"
+        }
+      ]
+    }
+  },
+  "variables": [],
+  "iterationResultVariable": "",
+  "resultVariable": "",
+  "extensions": {}
+}

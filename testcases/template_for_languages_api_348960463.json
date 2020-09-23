@@ -1,0 +1,9 @@
+{
+  "$ref": "template_for_adding_languages_api_280676080_tpl",
+  "$data": {
+    "name": "Spanish"
+  },
+  "details": {
+    "summary": "Template for languages API"
+  }
+}

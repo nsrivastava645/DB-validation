@@ -1,0 +1,7 @@
+{
+  "$ref": "501082486_tpl",
+  "$data": {},
+  "details": {
+    "summary": "Drop the db before test"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "db-validation",
+  "description": "Database Validation Demo",
+  "version": "1.0.0",
+  "keywords": [
+    "vREST NG",
+    "npm",
+    "db-integration"
+  ],
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mongoose": "^5.10.2"
+  }
+}

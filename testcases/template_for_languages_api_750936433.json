@@ -1,0 +1,9 @@
+{
+  "$ref": "template_for_adding_languages_api_280676080_tpl",
+  "$data": {
+    "name": "German"
+  },
+  "details": {
+    "summary": "Add German to the db"
+  }
+}
